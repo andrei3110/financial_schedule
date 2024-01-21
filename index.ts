@@ -1,7 +1,6 @@
 import express, { Express, Request, Response } from 'express';
 import path from 'path';
 import { registerRoutes } from './routes/index';
-
 const app: Express = express();
 
 
